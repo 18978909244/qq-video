@@ -1,0 +1,33 @@
+{
+  "name": "qq-video",
+  "version": "0.0.1",
+  "description": "qq-video complier",
+  "main": "src/index.js",
+  "scripts": {
+    "r": "webpack",
+    "e": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18978909244/qq-video.git"
+  },
+  "author": "40854@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/18978909244/qq-video/issues"
+  },
+  "homepage": "https://github.com/18978909244/qq-video#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
