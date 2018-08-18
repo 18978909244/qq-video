@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "r": "webpack",
-    "e": "http-server -p 8880"
+    "e": "http-server -p 8880",
+    "t": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,12 @@
     "babel-preset-latest": "^6.24.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "htmlparser2": "^3.9.2",
+    "underscore": "^1.9.1",
+    "xml2js": "^0.4.19",
+    "xmlreader": "^0.2.3"
   }
 }
